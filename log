@@ -1,0 +1,2035 @@
+Sat Mar 13 21:02:55 UTC 2021: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:0:
+exercises.c: In function ‘suma’:
+exercises.c:15:5: error: assignment makes pointer from integer without a cast [-Werror=int-conversion]
+    c=a+b;
+     ^
+test.c: At top level:
+test.c:272:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+ }s
+ ^
+cc1: all warnings being treated as errors
+Compilation failed
+Sat Mar 13 21:03:09 UTC 2021: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:0:
+exercises.c: In function ‘suma’:
+exercises.c:15:5: error: request for member ‘a’ in something not a structure or union
+    c->a+b;
+     ^~
+test.c: At top level:
+test.c:272:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+ }s
+ ^
+Compilation failed
+Sat Mar 13 21:05:07 UTC 2021: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:0:
+exercises.c: In function ‘suma’:
+exercises.c:15:6: error: request for member ‘a’ in something not a structure or union
+    *c->a+b;
+      ^~
+test.c: At top level:
+test.c:272:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+ }s
+ ^
+Compilation failed
+Sat Mar 13 21:05:19 UTC 2021: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+test.c:272:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+ }s
+ ^
+Compilation failed
+Sat Mar 13 21:05:42 UTC 2021: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:0:
+exercises.c: In function ‘suma’:
+exercises.c:15:13: error: ‘return’ with a value, in function returning void [-Werror]
+    return *c=a+b;
+           ~~^~~~
+exercises.c:14:6: note: declared here
+ void suma(int a, int b, int * c) {
+      ^~~~
+test.c: At top level:
+test.c:272:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+ }s
+ ^
+cc1: all warnings being treated as errors
+Compilation failed
+Sat Mar 13 21:06:17 UTC 2021: 
+ exercises.c | 4 +++-
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+test.c:272:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+ }s
+ ^
+Compilation failed
+Sat Mar 13 21:06:42 UTC 2021: 
+ exercises.c | 5 ++++-
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+test.c:272:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+ }s
+ ^
+Compilation failed
+Sat Mar 13 21:07:42 UTC 2021: 
+ exercises.c | 5 ++++-
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+In file included from test.c:5:0:
+exercises.c: In function ‘suma’:
+exercises.c:18:13: error: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘int *’ [-Werror=format=]
+    printf("%d",c);
+            ~^
+            %ls
+test.c: At top level:
+test.c:272:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+ }s
+ ^
+cc1: all warnings being treated as errors
+Compilation failed
+Sat Mar 13 21:07:58 UTC 2021: 
+ exercises.c | 5 ++++-
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+test.c:272:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+ }s
+ ^
+Compilation failed
+Sat Mar 13 21:08:07 UTC 2021: 
+ exercises.c | 5 ++++-
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+In file included from test.c:5:0:
+exercises.c: In function ‘suma’:
+exercises.c:18:13: error: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘int *’ [-Werror=format=]
+    printf("%d",c);
+            ~^
+            %ls
+test.c: At top level:
+test.c:272:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+ }s
+ ^
+cc1: all warnings being treated as errors
+Compilation failed
+Sat Mar 13 21:09:44 UTC 2021: 
+ exercises.c | 5 ++++-
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+test.c:272:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+ }s
+ ^
+Compilation failed
+Sat Mar 13 21:10:01 UTC 2021: 
+ exercises.c | 5 ++++-
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+In file included from test.c:5:0:
+exercises.c: In function ‘suma’:
+exercises.c:18:13: error: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘int *’ [-Werror=format=]
+    printf("%d",c);
+            ~^
+            %ls
+test.c: At top level:
+test.c:272:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+ }s
+ ^
+cc1: all warnings being treated as errors
+Compilation failed
+Sat Mar 13 21:12:54 UTC 2021: 
+ exercises.c | 5 ++++-
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+test.c:272:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+ }s
+ ^
+Compilation failed
+Sat Mar 13 21:12:59 UTC 2021: 
+ exercises.c | 5 ++++-
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+test.c:272:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+ }s
+ ^
+Compilation failed
+Sat Mar 13 21:13:05 UTC 2021: 
+ exercises.c | 5 ++++-
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+test.c:272:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+ }s
+ ^
+Compilation failed
+Sat Mar 13 21:13:16 UTC 2021: 
+ exercises.c | 5 ++++-
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+test.c:272:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+ }s
+ ^
+Compilation failed
+Sat Mar 13 21:13:27 UTC 2021: 
+ exercises.c | 5 ++++-
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+test.c:272:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+ }s
+ ^
+Compilation failed
+Sat Mar 13 21:14:17 UTC 2021: 
+ exercises.c | 5 ++++-
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+test.c:272:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+ }s
+ ^
+Compilation failed
+Sat Mar 13 21:14:28 UTC 2021: 
+ exercises.c | 5 ++++-
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+test.c:272:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+ }s
+ ^
+Compilation failed
+Sat Mar 13 21:18:25 UTC 2021: 
+ exercises.c | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+test.c:272:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+ }s
+ ^
+Compilation failed
+Sat Mar 13 21:18:40 UTC 2021: 
+ exercises.c | 5 +++--
+ 1 file changed, 3 insertions(+), 2 deletions(-)
+In file included from test.c:5:0:
+exercises.c:13:8: error: expected declaration specifiers or ‘...’ before string constant
+ printf("xdxd");
+        ^~~~~~
+test.c:272:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+ }s
+ ^
+Compilation failed
+Sat Mar 13 21:19:09 UTC 2021: 
+ exercises.c | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+In file included from test.c:5:0:
+exercises.c:18:8: error: expected declaration specifiers or ‘...’ before string constant
+ printf("%d",* c);
+        ^~~~
+exercises.c:18:13: error: expected declaration specifiers or ‘...’ before ‘*’ token
+ printf("%d",* c);
+             ^
+test.c:272:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+ }s
+ ^
+Compilation failed
+Sat Mar 13 21:19:27 UTC 2021: 
+ exercises.c | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+In file included from test.c:5:0:
+exercises.c:18:8: error: expected declaration specifiers or ‘...’ before string constant
+ printf("%d",c);
+        ^~~~
+exercises.c:18:13: error: unknown type name ‘c’
+ printf("%d",c);
+             ^
+test.c:272:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+ }s
+ ^
+Compilation failed
+Sat Mar 13 21:20:49 UTC 2021: 
+ exercises.c | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+In file included from test.c:5:0:
+exercises.c:18:8: error: expected declaration specifiers or ‘...’ before string constant
+ printf("%d",c);
+        ^~~~
+exercises.c:18:13: error: unknown type name ‘c’
+ printf("%d",c);
+             ^
+test.c:272:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+ }s
+ ^
+Compilation failed
+Sat Mar 13 21:21:04 UTC 2021: 
+ exercises.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+In file included from test.c:5:0:
+exercises.c: In function ‘suma’:
+exercises.c:16:12: error: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘int *’ [-Werror=format=]
+   printf("%d",c);
+           ~^
+           %ls
+test.c: At top level:
+test.c:272:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+ }s
+ ^
+cc1: all warnings being treated as errors
+Compilation failed
+Sat Mar 13 21:21:12 UTC 2021: 
+ exercises.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+In file included from test.c:5:0:
+exercises.c: In function ‘suma’:
+exercises.c:16:13: error: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘int *’ [-Werror=format=]
+   printf("%1s",c);
+           ~~^
+           %1ls
+test.c: At top level:
+test.c:272:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+ }s
+ ^
+cc1: all warnings being treated as errors
+Compilation failed
+Sat Mar 13 21:21:18 UTC 2021: 
+ exercises.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+In file included from test.c:5:0:
+exercises.c: In function ‘suma’:
+exercises.c:16:13: error: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘int’ [-Werror=format=]
+   printf("%1s",*c);
+           ~~^  ~~
+           %1d
+test.c: At top level:
+test.c:272:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+ }s
+ ^
+cc1: all warnings being treated as errors
+Compilation failed
+Sat Mar 13 21:21:24 UTC 2021: 
+ exercises.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+test.c:272:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+ }s
+ ^
+Compilation failed
+Sat Mar 13 21:26:12 UTC 2021: 
+ exercises.c | 6 +++---
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+In file included from test.c:5:0:
+exercises.c:13:6: error: expected declaration specifiers or ‘...’ before numeric constant
+ suma(10,15,*c);
+      ^~
+exercises.c:13:9: error: expected declaration specifiers or ‘...’ before numeric constant
+ suma(10,15,*c);
+         ^~
+exercises.c:13:12: error: expected declaration specifiers or ‘...’ before ‘*’ token
+ suma(10,15,*c);
+            ^
+test.c:272:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+ }s
+ ^
+Compilation failed
+Sat Mar 13 21:27:13 UTC 2021: 
+ exercises.c | 6 +++---
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+In file included from test.c:5:0:
+exercises.c:13:7: error: expected ‘)’ before ‘=’ token
+ suma(a=10,b=15,*c);
+       ^
+test.c:272:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+ }s
+ ^
+Compilation failed
+Sat Mar 13 21:27:25 UTC 2021: 
+ exercises.c | 6 +++---
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+In file included from test.c:5:0:
+exercises.c:13:7: error: expected ‘)’ before ‘=’ token
+ suma(a=10,b=15,*c);
+       ^
+test.c:272:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+ }s
+ ^
+Compilation failed
+Sat Mar 13 21:34:01 UTC 2021: 
+ exercises.c | 8 ++++++--
+ 1 file changed, 6 insertions(+), 2 deletions(-)
+In file included from test.c:5:0:
+exercises.c:13:5: error: expected identifier or ‘(’ before ‘)’ token
+ int(){
+     ^
+test.c: In function ‘test_suma’:
+test.c:67:9: error: implicit declaration of function ‘suma’; did you mean ‘fma’? [-Werror=implicit-function-declaration]
+         suma(i,j, res);
+         ^~~~
+         fma
+test.c: In function ‘test_suma_n’:
+test.c:97:5: error: implicit declaration of function ‘sumaNultimos’ [-Werror=implicit-function-declaration]
+     sumaNultimos(a, 10, m, res);
+     ^~~~~~~~~~~~
+test.c: In function ‘test_creaP’:
+test.c:111:5: error: unknown type name ‘Persona’
+     Persona* p=crearPersona(nombre, "15489XXX-2", edad);
+     ^~~~~~~
+test.c:111:16: error: implicit declaration of function ‘crearPersona’; did you mean ‘clearenv’? [-Werror=implicit-function-declaration]
+     Persona* p=crearPersona(nombre, "15489XXX-2", edad);
+                ^~~~~~~~~~~~
+                clearenv
+test.c:111:16: error: initialization makes pointer from integer without a cast [-Werror=int-conversion]
+test.c:119:16: error: request for member ‘nombre’ in something not a structure or union
+     if(strcmp(p->nombre,nombre)!=0){
+                ^~
+test.c:120:37: error: request for member ‘nombre’ in something not a structure or union
+         sprintf(msg,"p->nombre=%s",p->nombre);
+                                     ^~
+test.c:125:9: error: request for member ‘edad’ in something not a structure or union
+     if(p->edad!=edad){
+         ^~
+test.c:126:35: error: request for member ‘edad’ in something not a structure or union
+         sprintf(msg,"p->edad=%d",p->edad);
+                                   ^~
+test.c: In function ‘test_creaV’:
+test.c:139:5: error: unknown type name ‘Vector’
+     Vector *v = crearVector(size);
+     ^~~~~~
+test.c:139:17: error: implicit declaration of function ‘crearVector’; did you mean ‘clearerr’? [-Werror=implicit-function-declaration]
+     Vector *v = crearVector(size);
+                 ^~~~~~~~~~~
+                 clearerr
+test.c:139:17: error: initialization makes pointer from integer without a cast [-Werror=int-conversion]
+test.c:143:9: error: request for member ‘capacidad’ in something not a structure or union
+     if(v->capacidad != size){
+         ^~
+test.c:148:13: error: request for member ‘datos’ in something not a structure or union
+         if(v->datos[i] != 0){
+             ^~
+test.c: In function ‘test_asignarObtenerValor’:
+test.c:163:5: error: unknown type name ‘Vector’
+     Vector *v = (Vector*)malloc(sizeof(Vector));
+     ^~~~~~
+test.c:163:18: error: ‘Vector’ undeclared (first use in this function); did you mean ‘qecvt_r’?
+     Vector *v = (Vector*)malloc(sizeof(Vector));
+                  ^~~~~~
+                  qecvt_r
+test.c:163:18: note: each undeclared identifier is reported only once for each function it appears in
+test.c:163:25: error: expected expression before ‘)’ token
+     Vector *v = (Vector*)malloc(sizeof(Vector));
+                         ^
+test.c:164:6: error: request for member ‘datos’ in something not a structure or union
+     v->datos = (int *)calloc(3, sizeof(int));
+      ^~
+test.c:165:6: error: request for member ‘capacidad’ in something not a structure or union
+     v->capacidad = 3;
+      ^~
+test.c:166:5: error: implicit declaration of function ‘asignarValor’; did you mean ‘aligned_alloc’? [-Werror=implicit-function-declaration]
+     asignarValor(v, 0, a);
+     ^~~~~~~~~~~~
+     aligned_alloc
+test.c:170:13: error: implicit declaration of function ‘obtenerValor’ [-Werror=implicit-function-declaration]
+     int val=obtenerValor(v,0);
+             ^~~~~~~~~~~~
+test.c: In function ‘test_sumaV’:
+test.c:196:5: error: unknown type name ‘Vector’
+     Vector *v1 = (Vector*)malloc(sizeof(Vector));
+     ^~~~~~
+test.c:196:19: error: ‘Vector’ undeclared (first use in this function); did you mean ‘qecvt_r’?
+     Vector *v1 = (Vector*)malloc(sizeof(Vector));
+                   ^~~~~~
+                   qecvt_r
+test.c:196:26: error: expected expression before ‘)’ token
+     Vector *v1 = (Vector*)malloc(sizeof(Vector));
+                          ^
+test.c:197:7: error: request for member ‘datos’ in something not a structure or union
+     v1->datos = (int *)calloc(3, sizeof(int));
+       ^~
+test.c:198:7: error: request for member ‘capacidad’ in something not a structure or union
+     v1->capacidad = 3;
+       ^~
+test.c:200:7: error: request for member ‘datos’ in something not a structure or union
+     v1->datos[0]=a; v1->datos[1]=b; v1->datos[2]=c;
+       ^~
+test.c:200:23: error: request for member ‘datos’ in something not a structure or union
+     v1->datos[0]=a; v1->datos[1]=b; v1->datos[2]=c;
+                       ^~
+test.c:200:39: error: request for member ‘datos’ in something not a structure or union
+     v1->datos[0]=a; v1->datos[1]=b; v1->datos[2]=c;
+                                       ^~
+test.c:206:13: error: ‘v2’ undeclared (first use in this function); did you mean ‘v1’?
+     Vector *v2 = (Vector*)malloc(sizeof(Vector));
+             ^~
+             v1
+test.c:206:26: error: expected expression before ‘)’ token
+     Vector *v2 = (Vector*)malloc(sizeof(Vector));
+                          ^
+test.c:213:13: error: ‘v3’ undeclared (first use in this function); did you mean ‘v2’?
+     Vector *v3 = (Vector*)malloc(sizeof(Vector));
+             ^~
+             v2
+test.c:213:26: error: expected expression before ‘)’ token
+     Vector *v3 = (Vector*)malloc(sizeof(Vector));
+                          ^
+test.c:217:5: error: implicit declaration of function ‘sumaV’ [-Werror=implicit-function-declaration]
+     sumaV(v1, v2, v3);
+     ^~~~~
+test.c: In function ‘test_sumaV2’:
+test.c:231:5: error: unknown type name ‘Vector’
+     Vector *c = (Vector*)malloc(sizeof(Vector));
+     ^~~~~~
+test.c:231:18: error: ‘Vector’ undeclared (first use in this function); did you mean ‘qecvt_r’?
+     Vector *c = (Vector*)malloc(sizeof(Vector));
+                  ^~~~~~
+                  qecvt_r
+test.c:231:25: error: expected expression before ‘)’ token
+     Vector *c = (Vector*)malloc(sizeof(Vector));
+                         ^
+test.c:232:6: error: request for member ‘datos’ in something not a structure or union
+     c->datos = (int *)calloc(2, sizeof(int));
+      ^~
+test.c:233:6: error: request for member ‘capacidad’ in something not a structure or union
+     c->capacidad = 2;
+      ^~
+test.c:237:5: error: implicit declaration of function ‘sumaV2’ [-Werror=implicit-function-declaration]
+     sumaV2(a1,a2,b1,b2,c);
+     ^~~~~~
+test.c:239:9: error: request for member ‘datos’ in something not a structure or union
+     if(c->datos[0]!=a1+b1 || c->datos[1]!=a2+b2){
+         ^~
+test.c:239:31: error: request for member ‘datos’ in something not a structure or union
+     if(c->datos[0]!=a1+b1 || c->datos[1]!=a2+b2){
+                               ^~
+test.c:240:51: error: request for member ‘datos’ in something not a structure or union
+         sprintf(msg,"suma incorrecta, c=(%d,%d)",c->datos[0],c->datos[1]);
+                                                   ^~
+test.c:240:63: error: request for member ‘datos’ in something not a structure or union
+         sprintf(msg,"suma incorrecta, c=(%d,%d)",c->datos[0],c->datos[1]);
+                                                               ^~
+test.c: At top level:
+test.c:272:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+ }s
+ ^
+cc1: all warnings being treated as errors
+Compilation failed
+Sat Mar 13 21:34:18 UTC 2021: 
+ exercises.c | 9 ++++++---
+ 1 file changed, 6 insertions(+), 3 deletions(-)
+In file included from test.c:5:0:
+exercises.c:13:5: error: expected identifier or ‘(’ before ‘)’ token
+ int(){
+     ^
+test.c: In function ‘test_suma’:
+test.c:67:9: error: implicit declaration of function ‘suma’; did you mean ‘sumaV’? [-Werror=implicit-function-declaration]
+         suma(i,j, res);
+         ^~~~
+         sumaV
+test.c: At top level:
+test.c:272:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+ }s
+ ^
+cc1: all warnings being treated as errors
+Compilation failed
+Sat Mar 13 21:34:23 UTC 2021: 
+ exercises.c | 9 ++++++---
+ 1 file changed, 6 insertions(+), 3 deletions(-)
+In file included from test.c:5:0:
+exercises.c:13:5: error: expected identifier or ‘(’ before ‘)’ token
+ int(){
+     ^
+test.c: In function ‘test_suma’:
+test.c:67:9: error: implicit declaration of function ‘suma’; did you mean ‘sumaV’? [-Werror=implicit-function-declaration]
+         suma(i,j, res);
+         ^~~~
+         sumaV
+test.c: At top level:
+test.c:272:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+ }s
+ ^
+cc1: all warnings being treated as errors
+Compilation failed
+Sat Mar 13 21:34:43 UTC 2021: 
+ exercises.c | 8 ++++++--
+ 1 file changed, 6 insertions(+), 2 deletions(-)
+In file included from test.c:5:0:
+exercises.c:13:5: error: expected identifier or ‘(’ before ‘)’ token
+ int(){
+     ^
+test.c: In function ‘test_suma’:
+test.c:67:9: error: implicit declaration of function ‘suma’; did you mean ‘fma’? [-Werror=implicit-function-declaration]
+         suma(i,j, res);
+         ^~~~
+         fma
+test.c: In function ‘test_suma_n’:
+test.c:97:5: error: implicit declaration of function ‘sumaNultimos’ [-Werror=implicit-function-declaration]
+     sumaNultimos(a, 10, m, res);
+     ^~~~~~~~~~~~
+test.c: In function ‘test_creaP’:
+test.c:111:5: error: unknown type name ‘Persona’
+     Persona* p=crearPersona(nombre, "15489XXX-2", edad);
+     ^~~~~~~
+test.c:111:16: error: implicit declaration of function ‘crearPersona’; did you mean ‘clearenv’? [-Werror=implicit-function-declaration]
+     Persona* p=crearPersona(nombre, "15489XXX-2", edad);
+                ^~~~~~~~~~~~
+                clearenv
+test.c:111:16: error: initialization makes pointer from integer without a cast [-Werror=int-conversion]
+test.c:119:16: error: request for member ‘nombre’ in something not a structure or union
+     if(strcmp(p->nombre,nombre)!=0){
+                ^~
+test.c:120:37: error: request for member ‘nombre’ in something not a structure or union
+         sprintf(msg,"p->nombre=%s",p->nombre);
+                                     ^~
+test.c:125:9: error: request for member ‘edad’ in something not a structure or union
+     if(p->edad!=edad){
+         ^~
+test.c:126:35: error: request for member ‘edad’ in something not a structure or union
+         sprintf(msg,"p->edad=%d",p->edad);
+                                   ^~
+test.c: In function ‘test_creaV’:
+test.c:139:5: error: unknown type name ‘Vector’
+     Vector *v = crearVector(size);
+     ^~~~~~
+test.c:139:17: error: implicit declaration of function ‘crearVector’; did you mean ‘clearerr’? [-Werror=implicit-function-declaration]
+     Vector *v = crearVector(size);
+                 ^~~~~~~~~~~
+                 clearerr
+test.c:139:17: error: initialization makes pointer from integer without a cast [-Werror=int-conversion]
+test.c:143:9: error: request for member ‘capacidad’ in something not a structure or union
+     if(v->capacidad != size){
+         ^~
+test.c:148:13: error: request for member ‘datos’ in something not a structure or union
+         if(v->datos[i] != 0){
+             ^~
+test.c: In function ‘test_asignarObtenerValor’:
+test.c:163:5: error: unknown type name ‘Vector’
+     Vector *v = (Vector*)malloc(sizeof(Vector));
+     ^~~~~~
+test.c:163:18: error: ‘Vector’ undeclared (first use in this function); did you mean ‘qecvt_r’?
+     Vector *v = (Vector*)malloc(sizeof(Vector));
+                  ^~~~~~
+                  qecvt_r
+test.c:163:18: note: each undeclared identifier is reported only once for each function it appears in
+test.c:163:25: error: expected expression before ‘)’ token
+     Vector *v = (Vector*)malloc(sizeof(Vector));
+                         ^
+test.c:164:6: error: request for member ‘datos’ in something not a structure or union
+     v->datos = (int *)calloc(3, sizeof(int));
+      ^~
+test.c:165:6: error: request for member ‘capacidad’ in something not a structure or union
+     v->capacidad = 3;
+      ^~
+test.c:166:5: error: implicit declaration of function ‘asignarValor’; did you mean ‘aligned_alloc’? [-Werror=implicit-function-declaration]
+     asignarValor(v, 0, a);
+     ^~~~~~~~~~~~
+     aligned_alloc
+test.c:170:13: error: implicit declaration of function ‘obtenerValor’ [-Werror=implicit-function-declaration]
+     int val=obtenerValor(v,0);
+             ^~~~~~~~~~~~
+test.c: In function ‘test_sumaV’:
+test.c:196:5: error: unknown type name ‘Vector’
+     Vector *v1 = (Vector*)malloc(sizeof(Vector));
+     ^~~~~~
+test.c:196:19: error: ‘Vector’ undeclared (first use in this function); did you mean ‘qecvt_r’?
+     Vector *v1 = (Vector*)malloc(sizeof(Vector));
+                   ^~~~~~
+                   qecvt_r
+test.c:196:26: error: expected expression before ‘)’ token
+     Vector *v1 = (Vector*)malloc(sizeof(Vector));
+                          ^
+test.c:197:7: error: request for member ‘datos’ in something not a structure or union
+     v1->datos = (int *)calloc(3, sizeof(int));
+       ^~
+test.c:198:7: error: request for member ‘capacidad’ in something not a structure or union
+     v1->capacidad = 3;
+       ^~
+test.c:200:7: error: request for member ‘datos’ in something not a structure or union
+     v1->datos[0]=a; v1->datos[1]=b; v1->datos[2]=c;
+       ^~
+test.c:200:23: error: request for member ‘datos’ in something not a structure or union
+     v1->datos[0]=a; v1->datos[1]=b; v1->datos[2]=c;
+                       ^~
+test.c:200:39: error: request for member ‘datos’ in something not a structure or union
+     v1->datos[0]=a; v1->datos[1]=b; v1->datos[2]=c;
+                                       ^~
+test.c:206:13: error: ‘v2’ undeclared (first use in this function); did you mean ‘v1’?
+     Vector *v2 = (Vector*)malloc(sizeof(Vector));
+             ^~
+             v1
+test.c:206:26: error: expected expression before ‘)’ token
+     Vector *v2 = (Vector*)malloc(sizeof(Vector));
+                          ^
+test.c:213:13: error: ‘v3’ undeclared (first use in this function); did you mean ‘v2’?
+     Vector *v3 = (Vector*)malloc(sizeof(Vector));
+             ^~
+             v2
+test.c:213:26: error: expected expression before ‘)’ token
+     Vector *v3 = (Vector*)malloc(sizeof(Vector));
+                          ^
+test.c:217:5: error: implicit declaration of function ‘sumaV’ [-Werror=implicit-function-declaration]
+     sumaV(v1, v2, v3);
+     ^~~~~
+test.c: In function ‘test_sumaV2’:
+test.c:231:5: error: unknown type name ‘Vector’
+     Vector *c = (Vector*)malloc(sizeof(Vector));
+     ^~~~~~
+test.c:231:18: error: ‘Vector’ undeclared (first use in this function); did you mean ‘qecvt_r’?
+     Vector *c = (Vector*)malloc(sizeof(Vector));
+                  ^~~~~~
+                  qecvt_r
+test.c:231:25: error: expected expression before ‘)’ token
+     Vector *c = (Vector*)malloc(sizeof(Vector));
+                         ^
+test.c:232:6: error: request for member ‘datos’ in something not a structure or union
+     c->datos = (int *)calloc(2, sizeof(int));
+      ^~
+test.c:233:6: error: request for member ‘capacidad’ in something not a structure or union
+     c->capacidad = 2;
+      ^~
+test.c:237:5: error: implicit declaration of function ‘sumaV2’ [-Werror=implicit-function-declaration]
+     sumaV2(a1,a2,b1,b2,c);
+     ^~~~~~
+test.c:239:9: error: request for member ‘datos’ in something not a structure or union
+     if(c->datos[0]!=a1+b1 || c->datos[1]!=a2+b2){
+         ^~
+test.c:239:31: error: request for member ‘datos’ in something not a structure or union
+     if(c->datos[0]!=a1+b1 || c->datos[1]!=a2+b2){
+                               ^~
+test.c:240:51: error: request for member ‘datos’ in something not a structure or union
+         sprintf(msg,"suma incorrecta, c=(%d,%d)",c->datos[0],c->datos[1]);
+                                                   ^~
+test.c:240:63: error: request for member ‘datos’ in something not a structure or union
+         sprintf(msg,"suma incorrecta, c=(%d,%d)",c->datos[0],c->datos[1]);
+                                                               ^~
+test.c: At top level:
+test.c:272:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+ }s
+ ^
+cc1: all warnings being treated as errors
+Compilation failed
+Sat Mar 13 21:35:01 UTC 2021: 
+ exercises.c | 8 ++++++--
+ 1 file changed, 6 insertions(+), 2 deletions(-)
+In file included from test.c:5:0:
+exercises.c:13:5: error: expected identifier or ‘(’ before ‘void’
+ int(void){
+     ^~~~
+test.c: In function ‘test_suma’:
+test.c:67:9: error: implicit declaration of function ‘suma’; did you mean ‘fma’? [-Werror=implicit-function-declaration]
+         suma(i,j, res);
+         ^~~~
+         fma
+test.c: In function ‘test_suma_n’:
+test.c:97:5: error: implicit declaration of function ‘sumaNultimos’ [-Werror=implicit-function-declaration]
+     sumaNultimos(a, 10, m, res);
+     ^~~~~~~~~~~~
+test.c: In function ‘test_creaP’:
+test.c:111:5: error: unknown type name ‘Persona’
+     Persona* p=crearPersona(nombre, "15489XXX-2", edad);
+     ^~~~~~~
+test.c:111:16: error: implicit declaration of function ‘crearPersona’; did you mean ‘clearenv’? [-Werror=implicit-function-declaration]
+     Persona* p=crearPersona(nombre, "15489XXX-2", edad);
+                ^~~~~~~~~~~~
+                clearenv
+test.c:111:16: error: initialization makes pointer from integer without a cast [-Werror=int-conversion]
+test.c:119:16: error: request for member ‘nombre’ in something not a structure or union
+     if(strcmp(p->nombre,nombre)!=0){
+                ^~
+test.c:120:37: error: request for member ‘nombre’ in something not a structure or union
+         sprintf(msg,"p->nombre=%s",p->nombre);
+                                     ^~
+test.c:125:9: error: request for member ‘edad’ in something not a structure or union
+     if(p->edad!=edad){
+         ^~
+test.c:126:35: error: request for member ‘edad’ in something not a structure or union
+         sprintf(msg,"p->edad=%d",p->edad);
+                                   ^~
+test.c: In function ‘test_creaV’:
+test.c:139:5: error: unknown type name ‘Vector’
+     Vector *v = crearVector(size);
+     ^~~~~~
+test.c:139:17: error: implicit declaration of function ‘crearVector’; did you mean ‘clearerr’? [-Werror=implicit-function-declaration]
+     Vector *v = crearVector(size);
+                 ^~~~~~~~~~~
+                 clearerr
+test.c:139:17: error: initialization makes pointer from integer without a cast [-Werror=int-conversion]
+test.c:143:9: error: request for member ‘capacidad’ in something not a structure or union
+     if(v->capacidad != size){
+         ^~
+test.c:148:13: error: request for member ‘datos’ in something not a structure or union
+         if(v->datos[i] != 0){
+             ^~
+test.c: In function ‘test_asignarObtenerValor’:
+test.c:163:5: error: unknown type name ‘Vector’
+     Vector *v = (Vector*)malloc(sizeof(Vector));
+     ^~~~~~
+test.c:163:18: error: ‘Vector’ undeclared (first use in this function); did you mean ‘qecvt_r’?
+     Vector *v = (Vector*)malloc(sizeof(Vector));
+                  ^~~~~~
+                  qecvt_r
+test.c:163:18: note: each undeclared identifier is reported only once for each function it appears in
+test.c:163:25: error: expected expression before ‘)’ token
+     Vector *v = (Vector*)malloc(sizeof(Vector));
+                         ^
+test.c:164:6: error: request for member ‘datos’ in something not a structure or union
+     v->datos = (int *)calloc(3, sizeof(int));
+      ^~
+test.c:165:6: error: request for member ‘capacidad’ in something not a structure or union
+     v->capacidad = 3;
+      ^~
+test.c:166:5: error: implicit declaration of function ‘asignarValor’; did you mean ‘aligned_alloc’? [-Werror=implicit-function-declaration]
+     asignarValor(v, 0, a);
+     ^~~~~~~~~~~~
+     aligned_alloc
+test.c:170:13: error: implicit declaration of function ‘obtenerValor’ [-Werror=implicit-function-declaration]
+     int val=obtenerValor(v,0);
+             ^~~~~~~~~~~~
+test.c: In function ‘test_sumaV’:
+test.c:196:5: error: unknown type name ‘Vector’
+     Vector *v1 = (Vector*)malloc(sizeof(Vector));
+     ^~~~~~
+test.c:196:19: error: ‘Vector’ undeclared (first use in this function); did you mean ‘qecvt_r’?
+     Vector *v1 = (Vector*)malloc(sizeof(Vector));
+                   ^~~~~~
+                   qecvt_r
+test.c:196:26: error: expected expression before ‘)’ token
+     Vector *v1 = (Vector*)malloc(sizeof(Vector));
+                          ^
+test.c:197:7: error: request for member ‘datos’ in something not a structure or union
+     v1->datos = (int *)calloc(3, sizeof(int));
+       ^~
+test.c:198:7: error: request for member ‘capacidad’ in something not a structure or union
+     v1->capacidad = 3;
+       ^~
+test.c:200:7: error: request for member ‘datos’ in something not a structure or union
+     v1->datos[0]=a; v1->datos[1]=b; v1->datos[2]=c;
+       ^~
+test.c:200:23: error: request for member ‘datos’ in something not a structure or union
+     v1->datos[0]=a; v1->datos[1]=b; v1->datos[2]=c;
+                       ^~
+test.c:200:39: error: request for member ‘datos’ in something not a structure or union
+     v1->datos[0]=a; v1->datos[1]=b; v1->datos[2]=c;
+                                       ^~
+test.c:206:13: error: ‘v2’ undeclared (first use in this function); did you mean ‘v1’?
+     Vector *v2 = (Vector*)malloc(sizeof(Vector));
+             ^~
+             v1
+test.c:206:26: error: expected expression before ‘)’ token
+     Vector *v2 = (Vector*)malloc(sizeof(Vector));
+                          ^
+test.c:213:13: error: ‘v3’ undeclared (first use in this function); did you mean ‘v2’?
+     Vector *v3 = (Vector*)malloc(sizeof(Vector));
+             ^~
+             v2
+test.c:213:26: error: expected expression before ‘)’ token
+     Vector *v3 = (Vector*)malloc(sizeof(Vector));
+                          ^
+test.c:217:5: error: implicit declaration of function ‘sumaV’ [-Werror=implicit-function-declaration]
+     sumaV(v1, v2, v3);
+     ^~~~~
+test.c: In function ‘test_sumaV2’:
+test.c:231:5: error: unknown type name ‘Vector’
+     Vector *c = (Vector*)malloc(sizeof(Vector));
+     ^~~~~~
+test.c:231:18: error: ‘Vector’ undeclared (first use in this function); did you mean ‘qecvt_r’?
+     Vector *c = (Vector*)malloc(sizeof(Vector));
+                  ^~~~~~
+                  qecvt_r
+test.c:231:25: error: expected expression before ‘)’ token
+     Vector *c = (Vector*)malloc(sizeof(Vector));
+                         ^
+test.c:232:6: error: request for member ‘datos’ in something not a structure or union
+     c->datos = (int *)calloc(2, sizeof(int));
+      ^~
+test.c:233:6: error: request for member ‘capacidad’ in something not a structure or union
+     c->capacidad = 2;
+      ^~
+test.c:237:5: error: implicit declaration of function ‘sumaV2’ [-Werror=implicit-function-declaration]
+     sumaV2(a1,a2,b1,b2,c);
+     ^~~~~~
+test.c:239:9: error: request for member ‘datos’ in something not a structure or union
+     if(c->datos[0]!=a1+b1 || c->datos[1]!=a2+b2){
+         ^~
+test.c:239:31: error: request for member ‘datos’ in something not a structure or union
+     if(c->datos[0]!=a1+b1 || c->datos[1]!=a2+b2){
+                               ^~
+test.c:240:51: error: request for member ‘datos’ in something not a structure or union
+         sprintf(msg,"suma incorrecta, c=(%d,%d)",c->datos[0],c->datos[1]);
+                                                   ^~
+test.c:240:63: error: request for member ‘datos’ in something not a structure or union
+         sprintf(msg,"suma incorrecta, c=(%d,%d)",c->datos[0],c->datos[1]);
+                                                               ^~
+test.c: At top level:
+test.c:272:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+ }s
+ ^
+cc1: all warnings being treated as errors
+Compilation failed
+Sat Mar 13 21:41:44 UTC 2021: 
+ exercises.c | 10 +++++++---
+ 1 file changed, 7 insertions(+), 3 deletions(-)
+In file included from test.c:5:0:
+exercises.c:6:10: fatal error: exercises.h: No such file or directory
+ #include "exercises.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+Compilation failed
+Sat Mar 13 21:41:45 UTC 2021: 
+ exercises.c | 10 +++++++---
+ 1 file changed, 7 insertions(+), 3 deletions(-)
+In file included from test.c:5:0:
+exercises.c:6:10: fatal error: exercises.h: No such file or directory
+ #include "exercises.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+Compilation failed
+Sat Mar 13 21:41:46 UTC 2021: 
+ exercises.c | 10 +++++++---
+ 1 file changed, 7 insertions(+), 3 deletions(-)
+In file included from test.c:5:0:
+exercises.c:6:10: fatal error: exercises.h: No such file or directory
+ #include "exercises.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+Compilation failed
+Sat Mar 13 21:41:52 UTC 2021: 
+ exercises.c | 10 +++++++---
+ 1 file changed, 7 insertions(+), 3 deletions(-)
+In file included from test.c:5:0:
+exercises.c:6:10: fatal error: exercises.h: No such file or directory
+ #include "exercises.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+Compilation failed
+Sat Mar 13 21:42:09 UTC 2021: 
+ exercises.c | 8 ++++++--
+ 1 file changed, 6 insertions(+), 2 deletions(-)
+In file included from test.c:5:0:
+exercises.c:13:5: error: expected identifier or ‘(’ before ‘void’
+ int(void){
+     ^~~~
+test.c: In function ‘test_suma’:
+test.c:67:9: error: implicit declaration of function ‘suma’; did you mean ‘fma’? [-Werror=implicit-function-declaration]
+         suma(i,j, res);
+         ^~~~
+         fma
+test.c: In function ‘test_suma_n’:
+test.c:97:5: error: implicit declaration of function ‘sumaNultimos’ [-Werror=implicit-function-declaration]
+     sumaNultimos(a, 10, m, res);
+     ^~~~~~~~~~~~
+test.c: In function ‘test_creaP’:
+test.c:111:5: error: unknown type name ‘Persona’
+     Persona* p=crearPersona(nombre, "15489XXX-2", edad);
+     ^~~~~~~
+test.c:111:16: error: implicit declaration of function ‘crearPersona’; did you mean ‘clearenv’? [-Werror=implicit-function-declaration]
+     Persona* p=crearPersona(nombre, "15489XXX-2", edad);
+                ^~~~~~~~~~~~
+                clearenv
+test.c:111:16: error: initialization makes pointer from integer without a cast [-Werror=int-conversion]
+test.c:119:16: error: request for member ‘nombre’ in something not a structure or union
+     if(strcmp(p->nombre,nombre)!=0){
+                ^~
+test.c:120:37: error: request for member ‘nombre’ in something not a structure or union
+         sprintf(msg,"p->nombre=%s",p->nombre);
+                                     ^~
+test.c:125:9: error: request for member ‘edad’ in something not a structure or union
+     if(p->edad!=edad){
+         ^~
+test.c:126:35: error: request for member ‘edad’ in something not a structure or union
+         sprintf(msg,"p->edad=%d",p->edad);
+                                   ^~
+test.c: In function ‘test_creaV’:
+test.c:139:5: error: unknown type name ‘Vector’
+     Vector *v = crearVector(size);
+     ^~~~~~
+test.c:139:17: error: implicit declaration of function ‘crearVector’; did you mean ‘clearerr’? [-Werror=implicit-function-declaration]
+     Vector *v = crearVector(size);
+                 ^~~~~~~~~~~
+                 clearerr
+test.c:139:17: error: initialization makes pointer from integer without a cast [-Werror=int-conversion]
+test.c:143:9: error: request for member ‘capacidad’ in something not a structure or union
+     if(v->capacidad != size){
+         ^~
+test.c:148:13: error: request for member ‘datos’ in something not a structure or union
+         if(v->datos[i] != 0){
+             ^~
+test.c: In function ‘test_asignarObtenerValor’:
+test.c:163:5: error: unknown type name ‘Vector’
+     Vector *v = (Vector*)malloc(sizeof(Vector));
+     ^~~~~~
+test.c:163:18: error: ‘Vector’ undeclared (first use in this function); did you mean ‘qecvt_r’?
+     Vector *v = (Vector*)malloc(sizeof(Vector));
+                  ^~~~~~
+                  qecvt_r
+test.c:163:18: note: each undeclared identifier is reported only once for each function it appears in
+test.c:163:25: error: expected expression before ‘)’ token
+     Vector *v = (Vector*)malloc(sizeof(Vector));
+                         ^
+test.c:164:6: error: request for member ‘datos’ in something not a structure or union
+     v->datos = (int *)calloc(3, sizeof(int));
+      ^~
+test.c:165:6: error: request for member ‘capacidad’ in something not a structure or union
+     v->capacidad = 3;
+      ^~
+test.c:166:5: error: implicit declaration of function ‘asignarValor’; did you mean ‘aligned_alloc’? [-Werror=implicit-function-declaration]
+     asignarValor(v, 0, a);
+     ^~~~~~~~~~~~
+     aligned_alloc
+test.c:170:13: error: implicit declaration of function ‘obtenerValor’ [-Werror=implicit-function-declaration]
+     int val=obtenerValor(v,0);
+             ^~~~~~~~~~~~
+test.c: In function ‘test_sumaV’:
+test.c:196:5: error: unknown type name ‘Vector’
+     Vector *v1 = (Vector*)malloc(sizeof(Vector));
+     ^~~~~~
+test.c:196:19: error: ‘Vector’ undeclared (first use in this function); did you mean ‘qecvt_r’?
+     Vector *v1 = (Vector*)malloc(sizeof(Vector));
+                   ^~~~~~
+                   qecvt_r
+test.c:196:26: error: expected expression before ‘)’ token
+     Vector *v1 = (Vector*)malloc(sizeof(Vector));
+                          ^
+test.c:197:7: error: request for member ‘datos’ in something not a structure or union
+     v1->datos = (int *)calloc(3, sizeof(int));
+       ^~
+test.c:198:7: error: request for member ‘capacidad’ in something not a structure or union
+     v1->capacidad = 3;
+       ^~
+test.c:200:7: error: request for member ‘datos’ in something not a structure or union
+     v1->datos[0]=a; v1->datos[1]=b; v1->datos[2]=c;
+       ^~
+test.c:200:23: error: request for member ‘datos’ in something not a structure or union
+     v1->datos[0]=a; v1->datos[1]=b; v1->datos[2]=c;
+                       ^~
+test.c:200:39: error: request for member ‘datos’ in something not a structure or union
+     v1->datos[0]=a; v1->datos[1]=b; v1->datos[2]=c;
+                                       ^~
+test.c:206:13: error: ‘v2’ undeclared (first use in this function); did you mean ‘v1’?
+     Vector *v2 = (Vector*)malloc(sizeof(Vector));
+             ^~
+             v1
+test.c:206:26: error: expected expression before ‘)’ token
+     Vector *v2 = (Vector*)malloc(sizeof(Vector));
+                          ^
+test.c:213:13: error: ‘v3’ undeclared (first use in this function); did you mean ‘v2’?
+     Vector *v3 = (Vector*)malloc(sizeof(Vector));
+             ^~
+             v2
+test.c:213:26: error: expected expression before ‘)’ token
+     Vector *v3 = (Vector*)malloc(sizeof(Vector));
+                          ^
+test.c:217:5: error: implicit declaration of function ‘sumaV’ [-Werror=implicit-function-declaration]
+     sumaV(v1, v2, v3);
+     ^~~~~
+test.c: In function ‘test_sumaV2’:
+test.c:231:5: error: unknown type name ‘Vector’
+     Vector *c = (Vector*)malloc(sizeof(Vector));
+     ^~~~~~
+test.c:231:18: error: ‘Vector’ undeclared (first use in this function); did you mean ‘qecvt_r’?
+     Vector *c = (Vector*)malloc(sizeof(Vector));
+                  ^~~~~~
+                  qecvt_r
+test.c:231:25: error: expected expression before ‘)’ token
+     Vector *c = (Vector*)malloc(sizeof(Vector));
+                         ^
+test.c:232:6: error: request for member ‘datos’ in something not a structure or union
+     c->datos = (int *)calloc(2, sizeof(int));
+      ^~
+test.c:233:6: error: request for member ‘capacidad’ in something not a structure or union
+     c->capacidad = 2;
+      ^~
+test.c:237:5: error: implicit declaration of function ‘sumaV2’ [-Werror=implicit-function-declaration]
+     sumaV2(a1,a2,b1,b2,c);
+     ^~~~~~
+test.c:239:9: error: request for member ‘datos’ in something not a structure or union
+     if(c->datos[0]!=a1+b1 || c->datos[1]!=a2+b2){
+         ^~
+test.c:239:31: error: request for member ‘datos’ in something not a structure or union
+     if(c->datos[0]!=a1+b1 || c->datos[1]!=a2+b2){
+                               ^~
+test.c:240:51: error: request for member ‘datos’ in something not a structure or union
+         sprintf(msg,"suma incorrecta, c=(%d,%d)",c->datos[0],c->datos[1]);
+                                                   ^~
+test.c:240:63: error: request for member ‘datos’ in something not a structure or union
+         sprintf(msg,"suma incorrecta, c=(%d,%d)",c->datos[0],c->datos[1]);
+                                                               ^~
+test.c: At top level:
+test.c:272:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+ }s
+ ^
+cc1: all warnings being treated as errors
+Compilation failed
+Sat Mar 13 21:42:27 UTC 2021: 
+ exercises.c | 9 ++++++---
+ 1 file changed, 6 insertions(+), 3 deletions(-)
+In file included from test.c:5:0:
+exercises.c:13:5: error: expected identifier or ‘(’ before ‘void’
+ int(void){
+     ^~~~
+test.c:272:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+ }s
+ ^
+Compilation failed
+Sat Mar 13 21:42:47 UTC 2021: 
+ exercises.c | 9 ++++++---
+ 1 file changed, 6 insertions(+), 3 deletions(-)
+In file included from test.c:5:0:
+exercises.c:13:5: error: expected identifier or ‘(’ before ‘)’ token
+ int(){
+     ^
+test.c:272:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+ }s
+ ^
+Compilation failed
+Sat Mar 13 21:43:17 UTC 2021: 
+ exercises.c | 9 ++++++---
+ 1 file changed, 6 insertions(+), 3 deletions(-)
+In file included from test.c:5:0:
+exercises.c: In function ‘main’:
+exercises.c:15:3: error: implicit declaration of function ‘suma’; did you mean ‘fma’? [-Werror=implicit-function-declaration]
+   suma(a,b,*c);
+   ^~~~
+   fma
+exercises.c: At top level:
+exercises.c:17:6: error: conflicting types for ‘suma’ [-Werror]
+ void suma(int a, int b, int * c) {
+      ^~~~
+exercises.c:15:3: note: previous implicit declaration of ‘suma’ was here
+   suma(a,b,*c);
+   ^~~~
+test.c:250:5: error: redefinition of ‘main’
+ int main( int argc, char *argv[] ) {
+     ^~~~
+In file included from test.c:5:0:
+exercises.c:13:5: note: previous definition of ‘main’ was here
+ int main(){
+     ^~~~
+test.c:272:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+ }s
+ ^
+cc1: all warnings being treated as errors
+Compilation failed
+Sat Mar 13 21:43:54 UTC 2021: 
+ exercises.c | 11 +++++++----
+ 1 file changed, 7 insertions(+), 4 deletions(-)
+In file included from test.c:5:0:
+exercises.c: In function ‘main’:
+exercises.c:15:12: error: passing argument 3 of ‘suma’ makes pointer from integer without a cast [-Werror=int-conversion]
+   suma(a,b,*c);
+            ^
+exercises.c:7:6: note: expected ‘int *’ but argument is of type ‘int’
+ void suma(int,int,int*);
+      ^~~~
+test.c: At top level:
+test.c:250:5: error: redefinition of ‘main’
+ int main( int argc, char *argv[] ) {
+     ^~~~
+In file included from test.c:5:0:
+exercises.c:13:5: note: previous definition of ‘main’ was here
+ int main(){
+     ^~~~
+test.c:272:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+ }s
+ ^
+cc1: all warnings being treated as errors
+Compilation failed
+Sat Mar 13 21:44:49 UTC 2021: 
+ exercises.c | 11 +++++++----
+ 1 file changed, 7 insertions(+), 4 deletions(-)
+In file included from test.c:5:0:
+exercises.c: In function ‘main’:
+exercises.c:15:12: error: invalid type argument of unary ‘*’ (have ‘int’)
+   suma(a,b,*c);
+            ^~
+test.c: At top level:
+test.c:250:5: error: redefinition of ‘main’
+ int main( int argc, char *argv[] ) {
+     ^~~~
+In file included from test.c:5:0:
+exercises.c:13:5: note: previous definition of ‘main’ was here
+ int main(){
+     ^~~~
+test.c:272:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+ }s
+ ^
+Compilation failed
+Sat Mar 13 21:44:58 UTC 2021: 
+ exercises.c | 11 +++++++----
+ 1 file changed, 7 insertions(+), 4 deletions(-)
+In file included from test.c:5:0:
+exercises.c: In function ‘main’:
+exercises.c:15:12: error: invalid type argument of unary ‘*’ (have ‘int’)
+   suma(a,b,*c);
+            ^~
+exercises.c: In function ‘suma’:
+exercises.c:18:5: error: assignment makes pointer from integer without a cast [-Werror=int-conversion]
+    c=(a+b);
+     ^
+exercises.c:19:13: error: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘int *’ [-Werror=format=]
+   printf("%1d",c);
+           ~~^
+           %1ls
+test.c: At top level:
+test.c:250:5: error: redefinition of ‘main’
+ int main( int argc, char *argv[] ) {
+     ^~~~
+In file included from test.c:5:0:
+exercises.c:13:5: note: previous definition of ‘main’ was here
+ int main(){
+     ^~~~
+test.c:272:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+ }s
+ ^
+cc1: all warnings being treated as errors
+Compilation failed
+Sat Mar 13 21:45:31 UTC 2021: 
+ exercises.c | 11 +++++++----
+ 1 file changed, 7 insertions(+), 4 deletions(-)
+In file included from test.c:5:0:
+exercises.c: In function ‘main’:
+exercises.c:15:12: error: invalid type argument of unary ‘*’ (have ‘int’)
+   suma(a,b,*c);
+            ^~
+exercises.c: In function ‘suma’:
+exercises.c:18:5: error: assignment makes pointer from integer without a cast [-Werror=int-conversion]
+    c=(a+b);
+     ^
+exercises.c:19:12: error: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘int *’ [-Werror=format=]
+   printf("%d",c);
+           ~^
+           %ls
+test.c: At top level:
+test.c:250:5: error: redefinition of ‘main’
+ int main( int argc, char *argv[] ) {
+     ^~~~
+In file included from test.c:5:0:
+exercises.c:13:5: note: previous definition of ‘main’ was here
+ int main(){
+     ^~~~
+test.c:272:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+ }s
+ ^
+cc1: all warnings being treated as errors
+Compilation failed
+Sat Mar 13 21:45:41 UTC 2021: 
+ exercises.c | 11 +++++++----
+ 1 file changed, 7 insertions(+), 4 deletions(-)
+In file included from test.c:5:0:
+exercises.c: In function ‘main’:
+exercises.c:15:12: error: invalid type argument of unary ‘*’ (have ‘int’)
+   suma(a,b,*c);
+            ^~
+test.c: At top level:
+test.c:250:5: error: redefinition of ‘main’
+ int main( int argc, char *argv[] ) {
+     ^~~~
+In file included from test.c:5:0:
+exercises.c:13:5: note: previous definition of ‘main’ was here
+ int main(){
+     ^~~~
+test.c:272:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+ }s
+ ^
+Compilation failed
+Sat Mar 13 21:45:57 UTC 2021: 
+ exercises.c | 11 +++++++----
+ 1 file changed, 7 insertions(+), 4 deletions(-)
+In file included from test.c:5:0:
+exercises.c: In function ‘main’:
+exercises.c:15:12: error: invalid type argument of unary ‘*’ (have ‘int’)
+   suma(a,b,*c);
+            ^~
+exercises.c: In function ‘suma’:
+exercises.c:19:12: error: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘int *’ [-Werror=format=]
+   printf("%d",c);
+           ~^
+           %ls
+test.c: At top level:
+test.c:250:5: error: redefinition of ‘main’
+ int main( int argc, char *argv[] ) {
+     ^~~~
+In file included from test.c:5:0:
+exercises.c:13:5: note: previous definition of ‘main’ was here
+ int main(){
+     ^~~~
+test.c:272:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+ }s
+ ^
+cc1: all warnings being treated as errors
+Compilation failed
+Sat Mar 13 21:46:04 UTC 2021: 
+ exercises.c | 11 +++++++----
+ 1 file changed, 7 insertions(+), 4 deletions(-)
+In file included from test.c:5:0:
+exercises.c: In function ‘main’:
+exercises.c:15:12: error: invalid type argument of unary ‘*’ (have ‘int’)
+   suma(a,b,*c);
+            ^~
+test.c: At top level:
+test.c:250:5: error: redefinition of ‘main’
+ int main( int argc, char *argv[] ) {
+     ^~~~
+In file included from test.c:5:0:
+exercises.c:13:5: note: previous definition of ‘main’ was here
+ int main(){
+     ^~~~
+test.c:272:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+ }s
+ ^
+Compilation failed
+Sat Mar 13 21:46:37 UTC 2021: 
+ exercises.c | 11 +++++++----
+ 1 file changed, 7 insertions(+), 4 deletions(-)
+In file included from test.c:5:0:
+exercises.c: In function ‘ejercicios’:
+exercises.c:15:12: error: invalid type argument of unary ‘*’ (have ‘int’)
+   suma(a,b,*c);
+            ^~
+test.c: At top level:
+test.c:272:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+ }s
+ ^
+In file included from test.c:5:0:
+exercises.c: In function ‘ejercicios’:
+exercises.c:16:1: error: control reaches end of non-void function [-Werror=return-type]
+ }
+ ^
+cc1: all warnings being treated as errors
+Compilation failed
+Sat Mar 13 21:47:03 UTC 2021: 
+ exercises.c | 12 ++++++++----
+ 1 file changed, 8 insertions(+), 4 deletions(-)
+In file included from test.c:5:0:
+exercises.c: In function ‘test’:
+exercises.c:16:12: error: invalid type argument of unary ‘*’ (have ‘int’)
+   suma(a,b,*c);
+            ^~
+test.c: At top level:
+test.c:272:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+ }s
+ ^
+In file included from test.c:5:0:
+exercises.c: In function ‘test’:
+exercises.c:17:1: error: control reaches end of non-void function [-Werror=return-type]
+ }
+ ^
+cc1: all warnings being treated as errors
+Compilation failed
+Sat Mar 13 21:47:27 UTC 2021: 
+ exercises.c | 10 ++++++----
+ 1 file changed, 6 insertions(+), 4 deletions(-)
+In file included from test.c:5:0:
+exercises.c:15:10: error: expected ‘)’ before ‘*’ token
+ suma(a,b,*c);
+          ^
+test.c:272:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+ }s
+ ^
+Compilation failed
+Sat Mar 13 21:47:33 UTC 2021: 
+ exercises.c | 10 ++++++----
+ 1 file changed, 6 insertions(+), 4 deletions(-)
+In file included from test.c:5:0:
+exercises.c:15:10: error: expected ‘)’ before ‘*’ token
+ suma(a,b,*c);
+          ^
+test.c:272:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+ }s
+ ^
+Compilation failed
+Sat Mar 13 21:51:44 UTC 2021: 
+ exercises.c | 10 ++++++----
+ 1 file changed, 6 insertions(+), 4 deletions(-)
+In file included from test.c:5:0:
+exercises.c:15:10: error: expected ‘)’ before ‘*’ token
+ suma(a,b,*c);
+          ^
+test.c:272:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+ }s
+ ^
+Compilation failed
+Sat Mar 13 21:53:01 UTC 2021: 
+ exercises.c | 10 ++++++----
+ 1 file changed, 6 insertions(+), 4 deletions(-)
+In file included from test.c:5:0:
+exercises.c:15:10: error: expected ‘)’ before ‘*’ token
+ suma(a,b,*c);
+          ^
+test.c:272:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+ }s
+ ^
+Compilation failed
+Sat Mar 13 21:53:10 UTC 2021: 
+ exercises.c | 10 ++++++----
+ 1 file changed, 6 insertions(+), 4 deletions(-)
+In file included from test.c:5:0:
+exercises.c:15:1: error: data definition has no type or storage class [-Werror]
+ suma(a,b,c);
+ ^~~~
+exercises.c:15:1: error: type defaults to ‘int’ in declaration of ‘suma’ [-Werror=implicit-int]
+exercises.c:15:1: error: parameter names (without types) in function declaration [-Werror]
+exercises.c:15:1: error: conflicting types for ‘suma’
+exercises.c:7:6: note: previous declaration of ‘suma’ was here
+ void suma(int,int,int*);
+      ^~~~
+test.c:272:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+ }s
+ ^
+cc1: all warnings being treated as errors
+Compilation failed
+Sat Mar 13 21:54:13 UTC 2021: 
+ exercises.c | 10 ++++++----
+ 1 file changed, 6 insertions(+), 4 deletions(-)
+In file included from test.c:5:0:
+exercises.c:15:1: error: data definition has no type or storage class [-Werror]
+ suma(a,b,c);
+ ^~~~
+exercises.c:15:1: error: type defaults to ‘int’ in declaration of ‘suma’ [-Werror=implicit-int]
+exercises.c:15:1: error: parameter names (without types) in function declaration [-Werror]
+exercises.c:15:1: error: conflicting types for ‘suma’
+exercises.c:7:6: note: previous declaration of ‘suma’ was here
+ void suma(int,int,int*);
+      ^~~~
+test.c:272:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+ }s
+ ^
+cc1: all warnings being treated as errors
+Compilation failed
+Sat Mar 13 21:57:26 UTC 2021: 
+ exercises.c | 9 +++++----
+ 1 file changed, 5 insertions(+), 4 deletions(-)
+In file included from test.c:5:0:
+exercises.c:14:1: error: data definition has no type or storage class [-Werror]
+ suma(a,b,c);
+ ^~~~
+exercises.c:14:1: error: type defaults to ‘int’ in declaration of ‘suma’ [-Werror=implicit-int]
+exercises.c:14:1: error: parameter names (without types) in function declaration [-Werror]
+exercises.c:14:1: error: conflicting types for ‘suma’
+exercises.c:7:6: note: previous declaration of ‘suma’ was here
+ void suma(int,int,int*);
+      ^~~~
+exercises.c: In function ‘suma’:
+exercises.c:16:11: error: lvalue required as left operand of assignment
+    (int*)c=(a+b);
+           ^
+exercises.c:17:12: error: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘int *’ [-Werror=format=]
+   printf("%d",c);
+           ~^
+           %ls
+test.c: At top level:
+test.c:272:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+ }s
+ ^
+cc1: all warnings being treated as errors
+Compilation failed
+Sat Mar 13 21:57:38 UTC 2021: 
+ exercises.c | 9 +++++----
+ 1 file changed, 5 insertions(+), 4 deletions(-)
+In file included from test.c:5:0:
+exercises.c:14:1: error: data definition has no type or storage class [-Werror]
+ suma(a,b,c);
+ ^~~~
+exercises.c:14:1: error: type defaults to ‘int’ in declaration of ‘suma’ [-Werror=implicit-int]
+exercises.c:14:1: error: parameter names (without types) in function declaration [-Werror]
+exercises.c:14:1: error: conflicting types for ‘suma’
+exercises.c:7:6: note: previous declaration of ‘suma’ was here
+ void suma(int,int,int*);
+      ^~~~
+exercises.c: In function ‘suma’:
+exercises.c:16:11: error: lvalue required as left operand of assignment
+    (int*)c=(a+b);
+           ^
+exercises.c:17:12: error: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘int *’ [-Werror=format=]
+   printf("%d",c);
+           ~^
+           %ls
+test.c: At top level:
+test.c:272:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+ }s
+ ^
+cc1: all warnings being treated as errors
+Compilation failed
+Sat Mar 13 21:58:35 UTC 2021: 
+ exercises.c | 7 ++++---
+ 1 file changed, 4 insertions(+), 3 deletions(-)
+In file included from test.c:5:0:
+exercises.c:13:1: error: data definition has no type or storage class [-Werror]
+ suma(a,b,c);
+ ^~~~
+exercises.c:13:1: error: type defaults to ‘int’ in declaration of ‘suma’ [-Werror=implicit-int]
+exercises.c:13:1: error: parameter names (without types) in function declaration [-Werror]
+exercises.c:14:6: error: conflicting types for ‘suma’
+ void suma(int a, int b, int * c) {
+      ^~~~
+exercises.c:13:1: note: previous declaration of ‘suma’ was here
+ suma(a,b,c);
+ ^~~~
+exercises.c: In function ‘suma’:
+exercises.c:15:11: error: lvalue required as left operand of assignment
+    (int*)c=(a+b);
+           ^
+exercises.c:16:12: error: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘int *’ [-Werror=format=]
+   printf("%d",c);
+           ~^
+           %ls
+test.c: At top level:
+test.c:272:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+ }s
+ ^
+cc1: all warnings being treated as errors
+Compilation failed
+Sat Mar 13 21:58:38 UTC 2021: 
+ exercises.c | 7 ++++---
+ 1 file changed, 4 insertions(+), 3 deletions(-)
+In file included from test.c:5:0:
+exercises.c:13:1: error: data definition has no type or storage class [-Werror]
+ suma(a,b,c);
+ ^~~~
+exercises.c:13:1: error: type defaults to ‘int’ in declaration of ‘suma’ [-Werror=implicit-int]
+exercises.c:13:1: error: parameter names (without types) in function declaration [-Werror]
+exercises.c:14:6: error: conflicting types for ‘suma’
+ void suma(int a, int b, int * c) {
+      ^~~~
+exercises.c:13:1: note: previous declaration of ‘suma’ was here
+ suma(a,b,c);
+ ^~~~
+exercises.c: In function ‘suma’:
+exercises.c:15:11: error: lvalue required as left operand of assignment
+    (int*)c=(a+b);
+           ^
+exercises.c:16:12: error: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘int *’ [-Werror=format=]
+   printf("%d",c);
+           ~^
+           %ls
+test.c: At top level:
+test.c:272:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+ }s
+ ^
+cc1: all warnings being treated as errors
+Compilation failed
+Sat Mar 13 21:59:51 UTC 2021: 
+ exercises.c | 7 ++++---
+ 1 file changed, 4 insertions(+), 3 deletions(-)
+In file included from test.c:5:0:
+exercises.c:13:1: error: data definition has no type or storage class [-Werror]
+ suma(int a,int b,int *c);
+ ^~~~
+exercises.c:13:1: error: type defaults to ‘int’ in declaration of ‘suma’ [-Werror=implicit-int]
+exercises.c:14:6: error: conflicting types for ‘suma’
+ void suma(int a, int b, int * c) {
+      ^~~~
+exercises.c:13:1: note: previous declaration of ‘suma’ was here
+ suma(int a,int b,int *c);
+ ^~~~
+exercises.c: In function ‘suma’:
+exercises.c:15:11: error: lvalue required as left operand of assignment
+    (int*)c=(a+b);
+           ^
+exercises.c:16:12: error: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘int *’ [-Werror=format=]
+   printf("%d",c);
+           ~^
+           %ls
+test.c: At top level:
+test.c:272:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+ }s
+ ^
+cc1: all warnings being treated as errors
+Compilation failed
+Sat Mar 13 22:00:25 UTC 2021: 
+ exercises.c | 7 ++++---
+ 1 file changed, 4 insertions(+), 3 deletions(-)
+In file included from test.c:5:0:
+exercises.c:13:24: error: expected ‘;’, ‘,’ or ‘)’ before ‘=’ token
+ suma(int a,int b,int *c=NULL);
+                        ^
+exercises.c: In function ‘suma’:
+exercises.c:15:11: error: lvalue required as left operand of assignment
+    (int*)c=(a+b);
+           ^
+exercises.c:16:12: error: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘int *’ [-Werror=format=]
+   printf("%d",c);
+           ~^
+           %ls
+test.c: At top level:
+test.c:272:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+ }s
+ ^
+cc1: all warnings being treated as errors
+Compilation failed
+Sat Mar 13 22:00:27 UTC 2021: 
+ exercises.c | 7 ++++---
+ 1 file changed, 4 insertions(+), 3 deletions(-)
+In file included from test.c:5:0:
+exercises.c:13:24: error: expected ‘;’, ‘,’ or ‘)’ before ‘=’ token
+ suma(int a,int b,int *c=NULL);
+                        ^
+exercises.c: In function ‘suma’:
+exercises.c:15:11: error: lvalue required as left operand of assignment
+    (int*)c=(a+b);
+           ^
+exercises.c:16:12: error: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘int *’ [-Werror=format=]
+   printf("%d",c);
+           ~^
+           %ls
+test.c: At top level:
+test.c:272:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+ }s
+ ^
+cc1: all warnings being treated as errors
+Compilation failed
+Sat Mar 13 22:00:41 UTC 2021: 
+ exercises.c | 7 ++++---
+ 1 file changed, 4 insertions(+), 3 deletions(-)
+In file included from test.c:5:0:
+exercises.c:13:24: error: expected ‘;’, ‘,’ or ‘)’ before ‘=’ token
+ suma(int a,int b,int *c=NULL);
+                        ^
+exercises.c: In function ‘suma’:
+exercises.c:15:5: error: assignment makes pointer from integer without a cast [-Werror=int-conversion]
+    c=(a+b);
+     ^
+exercises.c:16:12: error: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘int *’ [-Werror=format=]
+   printf("%d",c);
+           ~^
+           %ls
+test.c: At top level:
+test.c:272:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+ }s
+ ^
+cc1: all warnings being treated as errors
+Compilation failed
+Sat Mar 13 22:01:07 UTC 2021: 
+ exercises.c | 7 ++++---
+ 1 file changed, 4 insertions(+), 3 deletions(-)
+In file included from test.c:5:0:
+exercises.c:13:1: error: data definition has no type or storage class [-Werror]
+ suma(int a,int b,int *c);
+ ^~~~
+exercises.c:13:1: error: type defaults to ‘int’ in declaration of ‘suma’ [-Werror=implicit-int]
+exercises.c:14:6: error: conflicting types for ‘suma’
+ void suma(int a, int b, int * c) {
+      ^~~~
+exercises.c:13:1: note: previous declaration of ‘suma’ was here
+ suma(int a,int b,int *c);
+ ^~~~
+exercises.c: In function ‘suma’:
+exercises.c:15:5: error: assignment makes pointer from integer without a cast [-Werror=int-conversion]
+    c=(a+b);
+     ^
+exercises.c:16:12: error: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘int *’ [-Werror=format=]
+   printf("%d",c);
+           ~^
+           %ls
+test.c: At top level:
+test.c:272:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+ }s
+ ^
+cc1: all warnings being treated as errors
+Compilation failed
+Sat Mar 13 22:01:18 UTC 2021: 
+ exercises.c | 6 +++---
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+In file included from test.c:5:0:
+exercises.c: In function ‘suma’:
+exercises.c:14:5: error: assignment makes pointer from integer without a cast [-Werror=int-conversion]
+    c=(a+b);
+     ^
+exercises.c:15:12: error: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘int *’ [-Werror=format=]
+   printf("%d",c);
+           ~^
+           %ls
+test.c: At top level:
+test.c:272:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+ }s
+ ^
+cc1: all warnings being treated as errors
+Compilation failed
+Sat Mar 13 22:03:17 UTC 2021: 
+ exercises.c | 5 +++--
+ 1 file changed, 3 insertions(+), 2 deletions(-)
+In file included from test.c:5:0:
+exercises.c: In function ‘suma’:
+exercises.c:14:5: error: assignment makes pointer from integer without a cast [-Werror=int-conversion]
+    c=(a+b);
+     ^
+exercises.c:15:12: error: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘int **’ [-Werror=format=]
+   printf("%d",&c);
+           ~^  ~~
+test.c: At top level:
+test.c:272:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+ }s
+ ^
+cc1: all warnings being treated as errors
+Compilation failed
+Sat Mar 13 22:03:24 UTC 2021: 
+ exercises.c | 5 +++--
+ 1 file changed, 3 insertions(+), 2 deletions(-)
+In file included from test.c:5:0:
+exercises.c: In function ‘suma’:
+exercises.c:14:5: error: assignment makes pointer from integer without a cast [-Werror=int-conversion]
+    c=(a+b);
+     ^
+exercises.c:15:12: error: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘int *’ [-Werror=format=]
+   printf("%d",c);
+           ~^
+           %ls
+test.c: At top level:
+test.c:272:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+ }s
+ ^
+cc1: all warnings being treated as errors
+Compilation failed
+Sat Mar 13 22:04:00 UTC 2021: 
+ exercises.c | 5 +++--
+ 1 file changed, 3 insertions(+), 2 deletions(-)
+In file included from test.c:5:0:
+exercises.c: In function ‘suma’:
+exercises.c:15:12: error: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘int *’ [-Werror=format=]
+   printf("%d",c);
+           ~^
+           %ls
+test.c: At top level:
+test.c:272:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+ }s
+ ^
+cc1: all warnings being treated as errors
+Compilation failed
+Sat Mar 13 22:04:09 UTC 2021: 
+ exercises.c | 6 +++---
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+In file included from test.c:5:0:
+exercises.c:16:8: error: expected declaration specifiers or ‘...’ before string constant
+ printf("%d",c);
+        ^~~~
+exercises.c:16:13: error: expected declaration specifiers or ‘...’ before ‘c’
+ printf("%d",c);
+             ^
+test.c:272:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+ }s
+ ^
+Compilation failed
+Sat Mar 13 22:04:37 UTC 2021: 
+ exercises.c | 6 +++---
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+In file included from test.c:5:0:
+exercises.c:12:17: error: initialization makes pointer from integer without a cast [-Werror=int-conversion]
+ int a=5,b=10,*c=1;
+                 ^
+exercises.c:16:8: error: expected declaration specifiers or ‘...’ before string constant
+ printf("%d",c);
+        ^~~~
+exercises.c:16:13: error: expected declaration specifiers or ‘...’ before ‘c’
+ printf("%d",c);
+             ^
+test.c:272:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+ }s
+ ^
+cc1: all warnings being treated as errors
+Compilation failed
+Sat Mar 13 22:04:52 UTC 2021: 
+ exercises.c | 6 +++---
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+In file included from test.c:5:0:
+exercises.c:16:8: error: expected declaration specifiers or ‘...’ before string constant
+ printf("%d",c);
+        ^~~~
+exercises.c:16:13: error: expected declaration specifiers or ‘...’ before ‘c’
+ printf("%d",c);
+             ^
+test.c:272:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+ }s
+ ^
+Compilation failed
+Sat Mar 13 22:17:59 UTC 2021: 
+ exercises.c | 6 +++---
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+In file included from test.c:5:0:
+exercises.c:12:16: error: initialization makes integer from pointer without a cast [-Werror=int-conversion]
+ int a=5,b=10,c=NULL;
+                ^~~~
+exercises.c:16:8: error: expected declaration specifiers or ‘...’ before string constant
+ printf("%d",c);
+        ^~~~
+exercises.c:16:13: error: expected declaration specifiers or ‘...’ before ‘c’
+ printf("%d",c);
+             ^
+test.c:272:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+ }s
+ ^
+cc1: all warnings being treated as errors
+Compilation failed
+Sat Mar 13 22:18:17 UTC 2021: 
+ exercises.c | 6 +++---
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+In file included from test.c:5:0:
+exercises.c:16:8: error: expected declaration specifiers or ‘...’ before string constant
+ printf("%d",c);
+        ^~~~
+exercises.c:16:13: error: expected declaration specifiers or ‘...’ before ‘c’
+ printf("%d",c);
+             ^
+test.c:272:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+ }s
+ ^
+Compilation failed
+Sat Mar 13 22:18:43 UTC 2021: 
+ exercises.c | 7 ++++---
+ 1 file changed, 4 insertions(+), 3 deletions(-)
+In file included from test.c:5:0:
+exercises.c:13:10: error: expected ‘)’ before ‘*’ token
+ suma(a,b,*c);
+          ^
+exercises.c:17:8: error: expected declaration specifiers or ‘...’ before string constant
+ printf("%d",c);
+        ^~~~
+exercises.c:17:13: error: expected declaration specifiers or ‘...’ before ‘c’
+ printf("%d",c);
+             ^
+test.c:272:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+ }s
+ ^
+Compilation failed
+Sat Mar 13 22:18:50 UTC 2021: 
+ exercises.c | 7 ++++---
+ 1 file changed, 4 insertions(+), 3 deletions(-)
+In file included from test.c:5:0:
+exercises.c:13:1: error: data definition has no type or storage class [-Werror]
+ suma(a,b,c);
+ ^~~~
+exercises.c:13:1: error: type defaults to ‘int’ in declaration of ‘suma’ [-Werror=implicit-int]
+exercises.c:13:1: error: parameter names (without types) in function declaration [-Werror]
+exercises.c:14:6: error: conflicting types for ‘suma’
+ void suma(int a, int b, int * c) {
+      ^~~~
+exercises.c:13:1: note: previous declaration of ‘suma’ was here
+ suma(a,b,c);
+ ^~~~
+exercises.c:17:8: error: expected declaration specifiers or ‘...’ before string constant
+ printf("%d",c);
+        ^~~~
+exercises.c:17:13: error: expected declaration specifiers or ‘...’ before ‘c’
+ printf("%d",c);
+             ^
+test.c:272:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+ }s
+ ^
+cc1: all warnings being treated as errors
+Compilation failed
+Sat Mar 13 22:18:53 UTC 2021: 
+ exercises.c | 7 ++++---
+ 1 file changed, 4 insertions(+), 3 deletions(-)
+In file included from test.c:5:0:
+exercises.c:13:1: error: data definition has no type or storage class [-Werror]
+ suma(a,b,c);
+ ^~~~
+exercises.c:13:1: error: type defaults to ‘int’ in declaration of ‘suma’ [-Werror=implicit-int]
+exercises.c:13:1: error: parameter names (without types) in function declaration [-Werror]
+exercises.c:14:6: error: conflicting types for ‘suma’
+ void suma(int a, int b, int * c) {
+      ^~~~
+exercises.c:13:1: note: previous declaration of ‘suma’ was here
+ suma(a,b,c);
+ ^~~~
+exercises.c:17:8: error: expected declaration specifiers or ‘...’ before string constant
+ printf("%d",c);
+        ^~~~
+exercises.c:17:13: error: expected declaration specifiers or ‘...’ before ‘c’
+ printf("%d",c);
+             ^
+test.c:272:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+ }s
+ ^
+cc1: all warnings being treated as errors
+Compilation failed
+Sat Mar 13 22:22:28 UTC 2021: 
+ exercises.c | 4 +---
+ 1 file changed, 1 insertion(+), 3 deletions(-)
+test.c:272:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+ }s
+ ^
+Compilation failed
+Sat Mar 13 22:23:29 UTC 2021: 
+ exercises.c | 4 +---
+ 1 file changed, 1 insertion(+), 3 deletions(-)
+test.c:272:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+ }s
+ ^
+Compilation failed
+Sat Mar 13 22:24:51 UTC 2021: 
+ exercises.c | 4 +---
+ 1 file changed, 1 insertion(+), 3 deletions(-)
+In file included from test.c:5:0:
+exercises.c: In function ‘suma’:
+exercises.c:13:5: error: assignment makes pointer from integer without a cast [-Werror=int-conversion]
+    c=(a+b);
+     ^
+test.c: At top level:
+test.c:272:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+ }s
+ ^
+cc1: all warnings being treated as errors
+Compilation failed
+Sat Mar 13 22:25:32 UTC 2021: 
+ exercises.c | 4 +---
+ 1 file changed, 1 insertion(+), 3 deletions(-)
+test.c:272:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+ }s
+ ^
+Compilation failed
+Sat Mar 13 22:25:39 UTC 2021: 
+ exercises.c | 4 +---
+ 1 file changed, 1 insertion(+), 3 deletions(-)
+In file included from test.c:5:0:
+exercises.c: In function ‘suma’:
+exercises.c:13:5: error: assignment makes pointer from integer without a cast [-Werror=int-conversion]
+    c=(a+b);
+     ^
+test.c: At top level:
+test.c:272:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+ }s
+ ^
+cc1: all warnings being treated as errors
+Compilation failed
+Sat Mar 13 22:26:29 UTC 2021: 
+ exercises.c | 5 ++---
+ 1 file changed, 2 insertions(+), 3 deletions(-)
+In file included from test.c:5:0:
+exercises.c: In function ‘suma’:
+exercises.c:14:5: error: assignment makes pointer from integer without a cast [-Werror=int-conversion]
+    p=a+b;
+     ^
+exercises.c:13:9: error: variable ‘p’ set but not used [-Werror=unused-but-set-variable]
+    int *p=c;
+         ^
+test.c: At top level:
+test.c:272:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+ }s
+ ^
+cc1: all warnings being treated as errors
+Compilation failed
+Sat Mar 13 22:26:41 UTC 2021: 
+ exercises.c | 5 ++---
+ 1 file changed, 2 insertions(+), 3 deletions(-)
+test.c:272:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+ }s
+ ^
+Compilation failed
+Sat Mar 13 22:27:11 UTC 2021: 
+ exercises.c | 6 +++---
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+test.c:272:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+ }s
+ ^
+Compilation failed
+Sat Mar 13 22:27:21 UTC 2021: 
+ exercises.c | 6 +++---
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+test.c:272:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+ }s
+ ^
+Compilation failed
+Sat Mar 13 22:27:26 UTC 2021: 
+ exercises.c | 6 +++---
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+test.c:272:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+ }s
+ ^
+Compilation failed
+Sat Mar 13 22:27:35 UTC 2021: 
+ exercises.c | 7 ++++---
+ 1 file changed, 4 insertions(+), 3 deletions(-)
+In file included from test.c:5:0:
+exercises.c:12:8: error: expected declaration specifiers or ‘...’ before string constant
+ printf("%d",a);
+        ^~~~
+exercises.c:12:13: error: unknown type name ‘a’
+ printf("%d",a);
+             ^
+test.c:272:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+ }s
+ ^
+Compilation failed
+Sat Mar 13 22:27:46 UTC 2021: 
+ exercises.c | 7 ++++---
+ 1 file changed, 4 insertions(+), 3 deletions(-)
+In file included from test.c:5:0:
+exercises.c:12:8: error: expected declaration specifiers or ‘...’ before string constant
+ printf("Lorea");
+        ^~~~~~~
+test.c:272:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+ }s
+ ^
+Compilation failed
+Sat Mar 13 22:28:00 UTC 2021: 
+ exercises.c | 7 ++++---
+ 1 file changed, 4 insertions(+), 3 deletions(-)
+In file included from test.c:5:0:
+exercises.c:12:8: error: expected declaration specifiers or ‘...’ before string constant
+ printf("Lorea");
+        ^~~~~~~
+test.c:272:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+ }s
+ ^
+Compilation failed
+Sat Mar 13 22:28:40 UTC 2021: 
+ exercises.c | 7 ++++---
+ 1 file changed, 4 insertions(+), 3 deletions(-)
+In file included from test.c:5:0:
+exercises.c:17:8: error: expected declaration specifiers or ‘...’ before string constant
+ printf("Lorea");
+        ^~~~~~~
+test.c:272:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+ }s
+ ^
+Compilation failed
+Sat Mar 13 22:31:34 UTC 2021: 
+ exercises.c | 6 +++---
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+In file included from test.c:5:0:
+exercises.c: In function ‘suma’:
+exercises.c:15:6: error: lvalue required as unary ‘&’ operand
+    p=&(a+b);
+      ^
+exercises.c:14:9: error: variable ‘p’ set but not used [-Werror=unused-but-set-variable]
+    int *p=c;
+         ^
+test.c: At top level:
+test.c:272:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+ }s
+ ^
+cc1: all warnings being treated as errors
+Compilation failed
+Sat Mar 13 22:31:48 UTC 2021: 
+ exercises.c | 5 ++---
+ 1 file changed, 2 insertions(+), 3 deletions(-)
+In file included from test.c:5:0:
+exercises.c: In function ‘suma’:
+exercises.c:14:6: error: lvalue required as unary ‘&’ operand
+    c=&(a+b);
+      ^
+test.c: At top level:
+test.c:272:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+ }s
+ ^
+Compilation failed
+Sat Mar 13 22:31:58 UTC 2021: 
+ exercises.c | 5 ++---
+ 1 file changed, 2 insertions(+), 3 deletions(-)
+test.c:272:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+ }s
+ ^
+Compilation failed
+Sat Mar 13 22:37:24 UTC 2021: 
+ exercises.c | 5 ++---
+ 1 file changed, 2 insertions(+), 3 deletions(-)
+test.c:272:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+ }s
+ ^
+Compilation failed
+Sat Mar 13 22:38:52 UTC 2021: 
+ exercises.c | 5 ++---
+ 1 file changed, 2 insertions(+), 3 deletions(-)
+test.c:272:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+ }s
+ ^
+Compilation failed
+Sun Mar 14 04:14:18 UTC 2021: 
+ exercises.c | 6 +++---
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+test.c:272:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+ }s
+ ^
+Compilation failed
+Sun Mar 14 04:15:38 UTC 2021: 
+ exercises.c | 6 +++---
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+test.c:272:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+ }s
+ ^
+Compilation failed
+Sun Mar 14 04:15:46 UTC 2021: 
+ exercises.c | 6 +++---
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+ tests:  1|6
+total_score: 10/70
+a8b80b2

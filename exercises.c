@@ -4,17 +4,16 @@
 #include <math.h>
 #include <ctype.h>
 //#include "exercises.h"
-
 /* 
 Ejercicio 1.
 Función que recibe 3 parámetros (a, b y c), 
 y en c almacena el valor de la suma de a más b.
 */
-
 void suma(int a, int b, int * c) {
-   
+   int aux;
+   aux=a+b;
+   *c=aux;
 }
-
 /*
 Esta función suma los N primeros números del arreglo a
 */
