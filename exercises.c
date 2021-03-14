@@ -35,13 +35,14 @@ Utilice la función sumaN.
 */
 
 void sumaNultimos(int a[], int n, int m, int * suma) {
-  int aux;
-  aux=sumaN(a,m);
-  printf("%d",m);
+  int aux, aux2,i;
+  for(i=0;a[i]!='\0';i++){
+    aux2=i;
+  }
+  
+  aux=sumaN(a,aux2);
   *suma=aux;
-
 }
-
 /*
 Ejercicio 3.
 Considerando la estructura Persona, programe la función
