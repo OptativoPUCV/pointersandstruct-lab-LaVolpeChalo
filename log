@@ -2202,3 +2202,9 @@ Mon Mar 15 00:56:09 UTC 2021:
  1 file changed, 1 insertion(+), 1 deletion(-)
  tests:  0|0
 f0c0043
+Mon Mar 15 00:58:00 UTC 2021: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  3|4
+total_score: 30/70
+9011ba5
