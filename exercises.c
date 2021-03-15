@@ -102,7 +102,7 @@ void asignarValor(Vector * v, int i, int valor) {
   for(j=0;j<3;j++){
     x+=((*v[j].datos)*(*v[j].datos));
   }
-  printf("%d",x);
+  printf("x=%d",x);
 
 }
 
