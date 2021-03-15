@@ -108,6 +108,7 @@ Programe la función int obtenerValor(Vector * v, int i),
 la cual retorna el valor en la posición i del vector v.
 */
 int obtenerValor(Vector * v, int i) {
+  printf("%d",v->datos[i]);
    return 0;
 }
 
